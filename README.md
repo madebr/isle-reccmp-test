@@ -180,7 +180,7 @@ All scripts will become available to use in your terminal with the `reccmp-` pre
 * [`verexp`](/reccmp/tools/verexp.py): Verifies exports by comparing the exports of the original DLL and the recompiled DLL
 * [`vtable`](/reccmp/tools/vtable.py): Asserts virtual table correctness by comparing a recompiled binary with the original
     * e.g. `reccmp-vtable legobin/LEGO1.DLL build/LEGO1.DLL build/LEGO1.PDB .`
-* [`datacmp.py`](/reccmp/tools/datacmp.py): Compares global data found in the original with the recompiled version
+* [`datacmp`](/reccmp/tools/datacmp.py): Compares global data found in the original with the recompiled version
     * e.g. `reccmp-datacmp legobin/LEGO1.DLL build/LEGO1.DLL build/LEGO1.PDB .`
 
 ## Testing
