@@ -13,7 +13,7 @@ jobs:
     - name: Install python libraries
       shell: bash
       run: |
-        pip install black==23.* pylint==3.2.7 -r requirements.txt -r requirements-tests.txt
+        pip install -r requirements.txt -r requirements-tests.txt
 
     - name: Run pylint and black
       shell: bash

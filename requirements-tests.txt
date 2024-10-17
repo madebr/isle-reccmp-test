@@ -1,1 +1,3 @@
 pytest==7.*
+black==23.*
+pylint==3.2.7
